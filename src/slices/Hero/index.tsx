@@ -57,6 +57,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
 
     const renderLetters = (name: KeyTextField, key: string) =>{
         if(!name){
+            let nName = "Abhishek"
             return;
         }
         return name.split("").map((letter, index) =>
